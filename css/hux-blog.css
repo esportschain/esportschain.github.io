@@ -149,10 +149,6 @@ h3,
 h4,
 h5,
 h6 {
-  /* Hux learn from
-     *     TypeIsBeautiful,
-     *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
-     */
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
   line-height: 1.1;
@@ -587,10 +583,14 @@ pre code {
 }
 @media only screen and (min-width: 768px) {
   .intro-header .post-head h1 {
-    font-size: 55px;
+    width: 100%;
+    font-size: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .intro-header .post-head .subheading {
-    font-size: 30px;
+    font-size: 26px;
   }
   .intro-header .post-head .meta {
     font-size: 20px;
@@ -1073,3 +1073,9 @@ img::-moz-selection {
 .page-fullscreen footer .copyright a:hover {
   color: #ddd;
 }
+/* 修改container */
+/* @media only screen and (min-width: 992px){
+.intro-header .container {
+    width: 1024px !important;
+}
+} */
