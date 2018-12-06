@@ -1,3 +1,16 @@
+---
+layout:     post
+title: Blockchain 区块链参考资料
+toc: true
+date: 2018-12-06
+tags:
+    - 区块链 
+    - BTC
+    - ETH
+author: em(esportsmaster)
+header-img: img/post-bg-digital-native.jpg
+catalog: true
+---
 # 区块链参考资料
 
 ## 新手入门
